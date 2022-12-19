@@ -1,0 +1,8 @@
+version: '1.1'
+services:
+  webgl:
+    image: residuostecnologicos/residuos:lastest
+    container_name: residuos
+    ports:
+      - "8080:80"
+    restart: always
