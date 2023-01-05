@@ -4,5 +4,5 @@ services:
     image: residuostecnologicos/residuos:lastest
     container_name: residuos
     ports:
-      - "8080:80"
+      - "8083:80"
     restart: always
