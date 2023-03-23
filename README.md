@@ -18,7 +18,7 @@ This repository contains the videogame (Agau el Protector del tiempo) and config
 To build the image, we must execute the following command locating ourselves in the project folder.
 
 ```
-docker build -t residuostecnologicos/residuos:{tagname} .
+docker build -t residuostecnologicos/Agau El protector del tiempo:{tagname} .
 ```
 
 ## Run Compose

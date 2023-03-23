@@ -1,8 +1,8 @@
 FROM nginx:alpine
 
-WORKDIR /residuos
-COPY  residuos/ .
+WORKDIR /Agau El protector del tiempo
+COPY  Agau El protector del tiempo/ .
 
 WORKDIR /etc/nginx/conf.d
 RUN rm default.conf
-COPY residuos.conf residuos.conf
+COPY Agau El protector del tiempo.conf Agau El protector del tiempo.conf
