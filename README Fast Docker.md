@@ -17,13 +17,13 @@ ACTUALIZAR LATEST
 Para actualizar el latest vez que se crea una nueva imagen con un versionamiento superior hay que ejecutar estas lineas para actualizarlo en Docker.
 
 1.
-IMAGE_ID=$(docker images --filter=reference=residuostecnologicos/Agau El protector del tiempo --format "{{.ID}}" | tr ' ' '\n' | sort -u | xargs)
+IMAGE_ID=$(docker images --filter=reference=residuostecnologicos/agau --format "{{.ID}}" | tr ' ' '\n' | sort -u | xargs)
 
 2.
 echo $IMAGE_ID
 
 3.
-docker tag $IMAGE_ID residuostecnologicos/Agau El protector del tiempo:latest
+docker tag $IMAGE_ID residuostecnologicos/agau:latest
 
 4.
-docker push residuostecnologicos/Agau El protector del tiempo:latest
+docker push residuostecnologicos/agau:latest
