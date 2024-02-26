@@ -1,13 +1,12 @@
 # Residuos_Tumlab
 
 ## Contents
-  * [Description](#Description)
-  * [Prerequisites](#Prerequisites)
-  * [Build image](Build-image)
-  * [Run Compose](#Run-Compose)
-
-  ## Description
-This repository contains the videogame (Agau el Protector del tiempo) and configurations necessary to show in a web page hosted in docker, all the applications that run in the tumlab.
+- [Residuos\_Tumlab](#residuos_tumlab)
+	- [Contents](#contents)
+	- [Prerequisites](#prerequisites)
+	- [Build image](#build-image)
+	- [Run Compose](#run-compose)
+	- [GCP](#gcp)
 
 ## Prerequisites
 -   Docker-compose v2.12.1 or later
@@ -17,13 +16,18 @@ This repository contains the videogame (Agau el Protector del tiempo) and config
 ## Build image
 To build the image, we must execute the following command locating ourselves in the project folder.
 
-```
-docker build -t residuostecnologicos/agau:{tagname} .
+```bash
+docker build -t talentumfront/agau:{tagname} .
 ```
 
 ## Run Compose
 To Run the compose execute the following command.
 
+```bash
+docker-compose -f "docker-compose.dev.yml" up
 ```
+
+```bash
 docker-compose up
+```
 ```
