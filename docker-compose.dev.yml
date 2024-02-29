@@ -1,11 +1,11 @@
 version: '1.1'
 services:
   webgl:
-    image: talentumfront/agau:latest
+    image: talentumfront/agau:1.2.14
     build:
       context: .
       dockerfile: ./Dockerfile
     container_name: agau
     ports:
-      - "8084:80"
+      - "8083:80"
     restart: always
