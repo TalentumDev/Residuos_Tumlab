@@ -1,7 +1,7 @@
 version: '1.1'
 services:
   webgl:
-    image: talentumfront/agau:1.2.14
+    image: talentumfront/agau:1.2.15
     container_name: agau
     ports:
       - "8083:80"
